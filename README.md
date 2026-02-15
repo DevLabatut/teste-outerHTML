@@ -79,5 +79,5 @@ para observar como o conteúdo inserido altera a página.
 ## Autor
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
-
 | :---------------------------------------------------------------------------------------------------------------: |
+
