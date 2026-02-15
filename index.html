@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste outerHTML</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      input {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Teste com outerHTML</h3>
+    <input id="entrada" placeholder="Digite algo" />
+    <button onclick="trocar()">Trocar tag</button>
+    <div id="caixa">Texto original</div>
+    <script>
+      function trocar() {
+        const texto = document.getElementById("entrada").value;
+
+        if (texto === "") {
+          alert("Digite algo");
+          return;
+        }
+
+        document.getElementById("caixa").outerHTML = texto;
+      }
+    </script>
+  </body>
+</html>
