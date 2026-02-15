@@ -13,6 +13,7 @@ Projeto simples em HTML com JavaScript embutido para demonstrar o comportamento 
 * Botão para substituir um elemento da página.
 * Demonstração de substituição completa de um elemento usando `outerHTML`.
 * Exemplo prático de como HTML digitado pode alterar a estrutura da página.
+* Validação simples impedindo substituição quando o campo está vazio.
 
 ## Tecnologias
 
@@ -78,4 +79,5 @@ para observar como o conteúdo inserido altera a página.
 ## Autor
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
+
 | :---------------------------------------------------------------------------------------------------------------: |
